@@ -1,0 +1,28 @@
+{
+  "name": "bin2dec",
+  "version": "1.0.0",
+  "description": "Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's and 1's, in any sequence and then displays its decimal equivalent.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishantharcot/Bin2Dec.git"
+  },
+  "author": "Nishanth Arcot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishantharcot/Bin2Dec/issues"
+  },
+  "homepage": "https://github.com/nishantharcot/Bin2Dec#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
