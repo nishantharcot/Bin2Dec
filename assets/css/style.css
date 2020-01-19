@@ -1,0 +1,8 @@
+.navbar {
+  justify-content: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+}

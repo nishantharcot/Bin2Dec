@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="./assets/js/app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>
+      Bin2Dec
+    </title>
   </head>
   <body>
-    
+    <nav class="navbar is-fixed-top has-background-black" role="navigation" aria-label="main navigation">
+      <div class="navbar-item is-size-3 has-text-danger">
+        BIN2DEC
+      </div>
+    </nav>
+    <section class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="container">
+          <div class="field">
+            <div class="is-size-2">
+              Binary Input
+            </div>
+            <div class="control">
+              <input class="input is-success is-fullwidth" type="text" placeholder="Binary Number">
+              <button class="button is-success" id="convert">
+                Convert
+              </button>
+            </div>
+            <div id="answer" class="is-size-2">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

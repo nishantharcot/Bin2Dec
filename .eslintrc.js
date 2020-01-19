@@ -1,4 +1,5 @@
 module.exports = {
     "extends": "google",
-    "parser": "babel-eslint"
+    "plugins": ["@typescript-eslint"],
+    "parser": "@typescript-eslint/parser",
 };
