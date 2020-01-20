@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-      Bin2Dec
+      Bin2Dec by Nishanth Arcot
     </title>
   </head>
   <body>
@@ -21,18 +21,33 @@
     <section class="hero is-fullheight">
       <div class="hero-body">
         <div class="container">
-          <div class="field">
-            <div class="is-size-2">
-              Binary Input
+          <div class="columns">
+            <div class="column is-one-fifth">
             </div>
-            <div class="control">
-              <input class="input is-success is-fullwidth" type="text" placeholder="Binary Number">
-              <button class="button is-success" id="convert">
-                Convert
-              </button>
+            <div class="column is-three-fifths">
+              <div class="field">
+                <div class="is-size-4">
+                  Binary Input
+                </div>
+                <div class="control">
+                  <input id="binaryInput" class="input is-success is-fullwidth" type="text" placeholder="Binary Number">
+                  <button class="button is-success" id="convert">
+                    Convert
+                  </button>
+                </div>
+                <div class="is-size-4">
+                  Decimal Output
+                </div>
+                <fieldset disabled>
+                  <div class="field">
+                    <div class="control">
+                      <input id="decimalOutput" class="input" type="text" placeholder="">
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
             </div>
-            <div id="answer" class="is-size-2">
-
+            <div class="column is-one-fifth">
             </div>
           </div>
         </div>
